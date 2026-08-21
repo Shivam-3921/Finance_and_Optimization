@@ -20,7 +20,7 @@ This project trains a neural network to predict consumer credit default risk, us
 
 ## Results
 
-All optimizers converged to a similar test accuracy in the **93.2–93.7% range**, with Adam-family adaptive methods (RMSProp, Adam) reaching low training loss in noticeably fewer epochs than vanilla SGD — illustrating the practical trade-off between per-step cost and convergence speed across optimizer choices on the same architecture and data.
+All optimizers converged to a similar test accuracy in the **93.2–93.7% range**, with adaptive methods (RMSProp, Adam) reaching low training loss in noticeably fewer epochs than vanilla SGD — illustrating the practical trade-off between per-step cost and convergence speed across optimizer choices on the same architecture and data.
 
 ## Tech Stack
 
